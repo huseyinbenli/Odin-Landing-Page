@@ -3,67 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style/style.css" />
     <title>Landing Page</title>
   </head>
   <body>
-    <header>
-      <div>Header Logo</div>
-      <ul>
-        <li>header link one</li>
-        <li>header link two</li>
-        <li>header link three</li>
-      </ul>
+    <header class="header-container">
+        <div class="header">
+            <div class="logo">Header Logo</div>
+            <ul class="links">
+                <li>header link one</li>
+                <li>header link two</li>
+                <li>header link three</li>
+            </ul>
+        </div>
     </header>
 
-    <section>
-      <div>
-        <h1>This website is awesome</h1>
-        <p>
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and color lower contrast
-        </p>
-        <button>Sign up</button>
-      </div>
-      <img src="" alt="" />
+    <section class="main-section">
+        <div class="main-section-container">
+
+            <div class="header-text">
+                <h1>This website is awesome</h1>
+                <p>
+                    This website has some subtext that goes here under the main title.
+                    It's a smaller font and color lower contrast
+                </p>
+                <button>Sign up</button>
+            </div>
+            <img src="/assets/images/header-img.jpg" alt="image of an old computer" />
+        </div>
     </section>
 
-    <section>
-      <h1>Some randon information</h1>
-      <div>
-        <div>
-          <img src="" alt="" />
+    <section class="card-section">
+      <h1 class="card-header">Some random information</h1>
+      <div class="cards">
+        <div class="card">
+          <img src="/assets/images/retro-keyboard.jpg" alt="old retro retro-keyboard" />
           <p>this is some subtext under an illustration or image</p>
         </div>
-        <div>
-          <img src="" alt="" />
+        <div class="card">
+          <img src="/assets/images/joystick.jpg" alt="old joystick" />
+          <p>this is some subtext under an illustration or image</p>
+        </div class="card">
+        <div class="card">
+          <img src="/assets/images/old-disks.jpg" alt="bunch of old disks" />
           <p>this is some subtext under an illustration or image</p>
         </div>
-        <div>
-          <img src="" alt="" />
-          <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div>
-          <img src="" alt="" />
+        <div class="card">
+          <img src="/assets/images/retro-computer.jpg" alt="an old retro computer" />
           <p>this is some subtext under an illustration or image</p>
         </div>
       </div>
     </section>
 
-    <section>
+    <section class="thor-section">
       <p>
         This is an inspiring quote, or a testimonial from a customer. Maybe it's
         just filling up space, or maybe people will actually read it. Who knows
         ? All I know is that it look nice.
       </p>
-      <p>-Thor, God of Thunder</p>
+      <p class="thor">-Thor, God of Thunder</p>
     </section>
-    <section>
-      <div>
-        <p>Call to action! It's time!</p>
-        <p>Sign up for our product by clicking that button right over there!</p>
-      </div>
-      <button>Sign up</button>
+    <section class="cta-section">
+        <div class="blue-bg">
+            <div>
+                <p class="cta">Call to action! It's time!</p>
+                <p class="sign-up">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button>Sign up</button>
+        </div>
     </section>
     <footer>
       <p>Copyright C The Odin Project 2021</p>
